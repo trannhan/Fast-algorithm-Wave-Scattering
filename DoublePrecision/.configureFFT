@@ -1,0 +1,16 @@
+#SINGLE PRECISION:
+#----------------
+cd $HOME/local/src/fftw-3.3.3
+./configure --enable-threads --enable-sse2 --enable-mpi --enable-float --prefix=/homes/nhantran/local
+make
+
+#Library link for single precision, add this to your code build script: -lfftw3f_mpi -lfftw3f -lm
+
+
+#DOUBLE PRECISION:
+#----------------
+cd /homes/nhantran/local/src/petsc-3.4.3/externalpackages/fftw-3.3.2
+./configure --prefix=/homes/nhantran/local/src/petsc-3.4.3/arch-linux2-fftw --libdir=/homes/nhantran/local/src/petsc-3.4.3/arch-linux2-fftw/lib CC=mpicc MPICC=mpicc CFLAGS= -fPIC -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -O  CXX=mpicxx CXXFLAGS= -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -O   -fPIC   F77=mpif90 FFLAGS= -fPIC -O3   --enable-mpi
+make
+
+#Library link for double precision, add this to your code build script: -lfftw3_mpi -lfftw3 -lm

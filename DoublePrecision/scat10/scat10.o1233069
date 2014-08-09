@@ -1,0 +1,29 @@
+
+WARNING: Volume of the domain containing particles should be positive. Set the default value!
+WARNING: Particle radius should be positive and less than the domain size. Set the default value!
+WARNING: Distance between neighboring particles should be positive, greater than the radius of a particle, and less than the domain size. Set the default value!
+WARNING: Original refraction should not be zero. Set the default value!
+WARNING: Desired refraction should not be zero. Set the default value!
+WARNING: Distribution of particles should be positive. Set the default value!
+----------------------- SOLVING PARTICLE SCATTERING PROBLEM -----------------------
+
+Speed of wave, v:					34400
+Frequency, f:						1000
+Wave number, k:						0.182651
+Direction of plane wave, alpha:				(1, 0, 0)
+Kappa:							0.5
+Volume of the domain that contains all particles, |D|:	1
+Original refraction coefficient, n0:			1+0i
+Desired refraction coefficient, n:			-1+0.001i
+Distribution of particles, N:				1
+Boundary impedance, zeta:				5.71961e-06+0.0114392i
+Radius of one particle, a:				2.154435e-07
+Distance between two neighboring particles, d:		4.641589e-04
+Number of particles, M:					10000000000 (1.000000e+10)
+Number of sub cubes after partitioning the domain, P:	27000
+Total collocation points for solving integral equation:	125000
+
+Initializing done!
+Elapsed time:	0:0:0
+
+Setting up FFT .

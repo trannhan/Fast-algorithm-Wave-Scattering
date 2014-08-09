@@ -1,0 +1,11 @@
+PBS Job Id: 1233036.gordon-fe2.local
+Job Name: scat8
+Exec host: gcn-3-42/0+gcn-3-42/1+gcn-3-42/2+gcn-3-42/3+gcn-3-42/4+gcn-3-42/5+gcn-3-42/6+gcn-3-42/7+gcn-3-42/8+gcn-3-42/9+gcn-3-42/10+gcn-3-42/11+gcn-3-42/12+gcn-3-42/13+gcn-3-42/14+gcn-3-42/15+gcn-5-74/0+gcn-5-74/1+gcn-5-74/2+gcn-5-74/3+gcn-5-74/4+gcn-5-74/5+gcn-5-74/6+gcn-5-74/7+gcn-5-74/8+gcn-5-74/9+gcn-5-74/10+gcn-5-74/11+gcn-5-74/12+gcn-5-74/13+gcn-5-74/14+gcn-5-74/15
+Execution terminated
+Exit_status=0
+resources_used.cput=00:00:00
+resources_used.mem=16116kb
+resources_used.vmem=585896kb
+resources_used.walltime=00:02:28
+Error_Path: gordon-ln1.sdsc.edu:/home/nhantran/work/ScatFFT64MemO/scat8.e1233036
+Output_Path: gordon-ln1.sdsc.edu:/home/nhantran/work/ScatFFT64MemO/scat8.o1233036
